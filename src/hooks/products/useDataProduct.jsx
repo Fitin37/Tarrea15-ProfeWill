@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { url } from "../../utils/apiUrl"; 
 import { toast } from "react-hot-toast";
 import { useNavigate, useParams } from "react-router-dom";
-import useFetchProduct from "./UseFetchProduct";
+import useFetchProduct from "./useFetchProduct";
 
 const useDataProduct = (methods) => {
   const { getProductById, getProducts } = useFetchProduct();

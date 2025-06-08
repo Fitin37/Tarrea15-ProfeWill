@@ -3,8 +3,8 @@ import { useEffect, useRef } from "react";
 import Titulo from "../components/Titulos";
 import Button from "../components/Button";
 import ButtonDelete from "../components/ButtonDelete";
-import useFetchProduct from "../hooks/users/useFetchProduct";
-import useProductActions from "../hooks/users/useProductActions";
+import useFetchProduct from "../hooks/products/useFetchProduct";
+import useProductActions from "../hooks/products/useProductActions";
 
 const Home = () => {
   const { products, getProducts } = useFetchProduct();

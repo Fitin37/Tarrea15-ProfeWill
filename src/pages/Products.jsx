@@ -4,7 +4,7 @@ import InputText from "../components/InputText";
 import SelectInput from "../components/SelectInput";
 import Button from "../components/Button";
 import { optionSelect } from '../utils/apiUrl';
-import useDataProducts from '../hooks/users/UseDataProduct';
+import useDataProducts from '../hooks/products/useDataProduct';
 import { Plus } from "lucide-react";
 import { useForm } from "react-hook-form";
 

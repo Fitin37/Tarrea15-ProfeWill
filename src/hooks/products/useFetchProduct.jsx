@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { url } from "../../utils/apiUrl";
 import { toast } from "react-hot-toast";
-import useProductAction from "./UseProductActions";
+import useProductAction from "./useProductActions";
 
 const useFetchProducts = () => {
 
