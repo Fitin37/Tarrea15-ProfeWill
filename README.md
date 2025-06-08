@@ -21,7 +21,7 @@ Creador:Rodolfo Antonio Perez Hernandez 20230300
 
 Pasos Para Ejecutar La app
 
-Entrar al repositoro y copiar la ruta 
+Entrar al repositoro y copiar la ruta donde estra el apartado de code
 Clonar el repositorio y Clonarlo usando git bash
 Entrar a visual studio y abrir el proyecto
 Pulsar ctrl + ñ y luego instalar dependencias
