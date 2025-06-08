@@ -1,36 +1,65 @@
-Descripccion de la app
+💻 TecnoMarket
+TecnoMarket es una tienda académica simulada que vende productos tecnológicos. Desarrollada por estudiantes como parte de un proyecto, esta aplicación web permite llevar un control ordenado del inventario de productos.
 
-“TecnoMarket”
+🧾 Descripción
+Esta aplicación permite registrar productos con la siguiente información:
 
-Esta tienda vende productos tecnológicos simulados como
-parte de un proyecto académico de unos estudiantes.
+Nombre del producto
 
-Para llevar un control ordenado de su
-inventario, se ha desarrollado una aplicación web donde
-puedan registrar cada producto con datos como nombre, categoría, precio,
-cantidad en stock. Esta solución permitirá ver en tiempo real los productos
-disponibles, actualizar el stock tras cada venta simulada y eliminar productos
-descontinuados.
+Categoría
 
-La aplicación será construida como un CRUD con React.js,
-usando buenas prácticas de programación y una interfaz clara, moderna y
-responsiva para que pueda ser utilizada por todo el equipo.
+Precio
 
+Cantidad en stock
 
-Creador:Rodolfo Antonio Perez Hernandez 20230300
+Con esta solución se podrá:
 
-Pasos Para Ejecutar La app
+Ver en tiempo real los productos disponibles
 
-Entrar al repositoro y copiar la ruta donde estra el apartado de code
-Clonar el repositorio y Clonarlo usando git bash
-Entrar a visual studio y abrir el proyecto
-Pulsar ctrl + ñ y luego instalar dependencias
+Actualizar el stock tras cada venta simulada
+
+Eliminar productos descontinuados
+
+La aplicación está construida como un CRUD utilizando React.js, con buenas prácticas de desarrollo, una interfaz clara, moderna y responsiva, pensada para facilitar su uso por parte de todo el equipo.
+
+⚙️ Pasos para ejecutar la aplicación
+1. Clonar el repositorio
+Abre una terminal (por ejemplo, Git Bash) y ejecuta:
+
+git clone [URL_DEL_REPOSITORIO]
+Reemplaza [URL_DEL_REPOSITORIO] con la ruta copiada desde el botón "Code" en GitHub.
+
+2. Abrir el proyecto
+Abre Visual Studio Code (u otro editor)
+
+Ve a Archivo > Abrir carpeta y selecciona la carpeta del proyecto
+
+3. Instalar dependencias
+Presiona Ctrl + Ñ para abrir la terminal integrada, luego ejecuta los siguientes comandos:
 
 npm i react-router-dom
-npm i  react-toastify
+npm i react-toastify
 npm i react-hook-form
 npm i react-hot-toast
 npm i
-npm run dev(Se podra visualisar el programa luego de instalar todas sus dependencias antes)
+⚠️ El último npm install asegurará que se instalen todas las dependencias del proyecto.
 
-Listoo
+4. Ejecutar la aplicación
+npm run dev
+Esto iniciará el servidor de desarrollo. Abre tu navegador en la URL que se muestra (normalmente http://localhost:5173 o similar) para visualizar la app.
+y listooo
+
+📦 Tecnologías utilizadas
+React.js
+
+Vite
+
+React Router DOM
+
+React Hook Form
+
+React Toastify / Hot Toast
+
+👨‍💻 Creador
+Rodolfo Antonio Pérez Hernández
+Matrícula: 20230300
